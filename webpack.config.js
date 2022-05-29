@@ -8,6 +8,7 @@ module.exports = {
     filename: "main.js",
     path: path.resolve(__dirname, "dist"),
     library: { type: "umd2" }, // commonJs2
+    libraryTarget: "umd",
   },
   resolve: {
     fallback: {
