@@ -1,1 +1,1 @@
-console.log("good");
+export * from "@react-pdf/renderer";

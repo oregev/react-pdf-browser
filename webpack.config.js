@@ -3,9 +3,11 @@ var webpack = require("webpack");
 
 module.exports = {
   entry: "./src/index.js",
+  mood: "development",
   output: {
     filename: "main.js",
     path: path.resolve(__dirname, "dist"),
+    library: { type: "umd2" }, // commonJs2
   },
   resolve: {
     fallback: {
@@ -23,4 +25,11 @@ module.exports = {
       process: "process/browser",
     }),
   ],
+  externals: {
+    react: {
+      root: "React",
+      commonjs: "react",
+      commonjs2: "react",
+    },
+  },
 };
