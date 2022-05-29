@@ -1,6 +1,6 @@
 {
   "name": "react-pdf-browser",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A package to enable react-pdf/renderer",
   "main": "./dist/main.js",
   "scripts": {
