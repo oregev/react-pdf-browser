@@ -1,14 +1,13 @@
 {
   "name": "react-pdf-browser",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "A package to enable react-pdf/renderer",
   "main": "./dist/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "build:dist": "npx webpack --config webpack.config.js",
-    "build:patch": "npm version patch",
-    "publish": "npm publish"
+    "build:patch": "npm version patch"
   },
   "repository": {
     "type": "git",
