@@ -1,4 +1,4 @@
-# react-pdf-browser v1.0.12
+# react-pdf-browser v1.0.16
 
 ## Installation
 
